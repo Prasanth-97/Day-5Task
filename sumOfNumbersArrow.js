@@ -1,0 +1,7 @@
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let add = (arr)  => {
+    let initialvalue = 0;
+    let result = arr.reduce((previousvalue, currentvalue) =>  previousvalue + currentvalue , initialvalue);
+    return result;
+}
+console.log(add(array));
